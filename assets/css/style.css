@@ -99,7 +99,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #0add08;
 }
 
 .overlay-mf {
@@ -1243,10 +1243,9 @@ a:hover {
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
-@media (min-width: 767px) {
-  .card-blog {
-    margin-bottom: 3rem;
-  }
+
+.card-blog {
+  margin-bottom: 3rem;
 }
 
 .card-blog .card-body {
@@ -1261,6 +1260,12 @@ a:hover {
   right: 15px;
   line-height: 25px;
   overflow: hidden;
+}
+
+#service {
+  /* height: 150px; */
+  object-fit: cover;
+  object-position: top center;
 }
 
 .card-blog .card-category {
